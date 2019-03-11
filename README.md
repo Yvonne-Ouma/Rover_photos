@@ -11,7 +11,7 @@ Yvonne Ouma
 
 ### Setup Instruction
 
-* git clone https://github.com/Yvonne-Ouma/neighborhood.git
+* git clone https://github.com/Yvonne-Ouma/Rover_photos.git
 * cd Rover_photos
 * source virtual/bin/activate this is to activate the virtual environment
 * Install all the necessary requirements by running pip install -r requirements.txt (Python 3)
