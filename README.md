@@ -13,8 +13,8 @@ Yvonne Ouma
 
 * git clone https://github.com/Yvonne-Ouma/Rover_photos.git
 * cd Rover_photos
-* source virtual/bin/activate this is to activate the virtual environment
-* Install all the necessary requirements by running pip install -r requirements.txt (Python 3)
+* ```source virtual/bin/activate``` this is to activate the virtual environment
+* Install all the necessary requirements by running ```pip install -r requirements.txt``` (Python 3)
 * python3.6 manager.py runserver
 
 ### Technologies Used
