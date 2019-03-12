@@ -19,12 +19,14 @@
         
             <div class="col-md-4">
         <div class="card" style="width:400px">
-            <div class="card-header">Camera Name: {{ photos.camera.name}}</div>
+            <div class="card-header">Camera id: {{ photos.id}}</div>
             <div class="card-body">
                 <img src="{{ photos.img_src }}" alt="img" height="300px" width="300px">
                 
             </div>
             <div class="card-footer">
+                <h6>Camera Name: {{ photos.camera.name}}</h6>
+                <h6>Rover Name: {{ photos.rover.name}}</h6>
                 <p>Earth Date: {{ photos.earth_date}}</p>
             </div>
         </div>

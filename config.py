@@ -3,7 +3,7 @@ class Config:
     General configuration parent class
     '''
 
-    NASA_API_URL = 'https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?sol=1000&api_key={}'
+    NASA_API_URL = 'https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?sol=2&api_key={}'
 
     pass
 
