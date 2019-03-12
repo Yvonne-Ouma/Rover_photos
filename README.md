@@ -15,7 +15,7 @@ Yvonne Ouma
 * cd Rover_photos
 * source virtual/bin/activate this is to activate the virtual environment
 * Install all the necessary requirements by running pip install -r requirements.txt (Python 3)
-* python3.6 manager.py runserver
+* python3.6 run.py
 
 ### Technologies Used
 * HTML
