@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Curiosity Mars Rover</title>
+</head>
+<body>
+    <h1>Curiosity Mars Rover</h1>
+    
+
+    <ul>
+        <div class="row">
+        
+        {% for photos in all_photo%}
+        
+            <div class="col-md-4">
+        <div class="card" style="width:400px">
+            <div class="card-header">Camera Name: {{ photos.camera.name}}</div>
+            <div class="card-body">
+                <img src="{{ photos.img_src }}" alt="img" height="300px" width="300px">
+                
+            </div>
+            <div class="card-footer">
+                <p>Earth Date: {{ photos.earth_date}}</p>
+            </div>
+        </div>
+        </div>
+        
+        {% endfor %}
+        
+    </div>
+    
+    </ul>
+</body>
+</html>
+
+
+
